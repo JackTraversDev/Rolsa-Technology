@@ -1,0 +1,30 @@
+@import "tailwindcss";
+
+/* Define the OpenDyslexic font with woff2 and woff formats */
+@font-face {
+    font-family: "OpenDyslexic";
+    src: url("/fonts/opendyslexic/compiled/OpenDyslexic-Regular.woff2") format("woff2"),
+        url("/fonts/opendyslexic/compiled/OpenDyslexic-Regular.woff") format("woff");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "OpenDyslexic";
+    src: url("/fonts/opendyslexic/compiled/OpenDyslexic-Bold.woff2") format("woff2"),
+        url("/fonts/opendyslexic/compiled/OpenDyslexic-Bold.woff") format("woff");
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "OpenDyslexic";
+    src: url("/fonts/opendyslexic/compiled/OpenDyslexic-Italic.woff2") format("woff2"),
+        url("/fonts/opendyslexic/compiled/OpenDyslexic-Italic.woff") format("woff");
+    font-weight: normal;
+    font-style: italic;
+}
+
+.font-dyslexic {
+    font-family: "OpenDyslexic", sans-serif;
+}
